@@ -113,7 +113,7 @@ if __name__ == '__main__':
     card2pdf = Cards2Pdf(args.input_folder)
 
     card_per_sheet, card_per_column, card_per_row, file_name, card_wide, card_height = default_settings(card_type)
-    print(args)
+
     if args.card_per_sheet:
         card_per_sheet = args.card_per_sheet
     if args.card_per_column:
